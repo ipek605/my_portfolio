@@ -1,8 +1,11 @@
-import React from 'react'
+import "./menu.scss";
 
 function Menu() {
   return (
-    <div>Menu</div>
+    <div className="Menu">
+
+
+    </div>
   )
 }
 

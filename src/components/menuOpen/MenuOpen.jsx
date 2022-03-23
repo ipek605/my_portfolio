@@ -1,8 +1,10 @@
-import React from 'react'
 
 function MenuOpen() {
   return (
-    <div>MenuOpen</div>
+    <div className="menuOpen">
+
+
+    </div>
   )
 }
 

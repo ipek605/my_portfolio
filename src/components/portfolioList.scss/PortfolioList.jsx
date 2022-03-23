@@ -1,8 +1,10 @@
-import React from 'react'
 
 function portfolioList() {
   return (
-    <div>portfolioList</div>
+    <div className="portfolioList" >
+
+
+    </div>
   )
 }
 

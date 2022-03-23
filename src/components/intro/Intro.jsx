@@ -1,8 +1,10 @@
-import React from 'react'
+import "./intro.scss";
 
 function Intro() {
   return (
-    <div>Intro</div>
+    <div className="intro">
+
+    </div>
   )
 }
 
