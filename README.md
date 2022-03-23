@@ -18,6 +18,7 @@ If you want to pull inspiration from my portfolio design, please email or credit
 To build a similar, single page portfolio or website for yourself, you'll want first create a new React app:
 ```
 npx create-react-app <projectname>
+```
 
 You can also fork and clone this repo to use as a template and then just run npm install
 
