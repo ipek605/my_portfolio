@@ -1,1 +1,9 @@
-$mainColor:#252429;
+$mainColor: #252429;
+
+$width:768px;
+
+@mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+}

@@ -4,7 +4,9 @@
   background-color: white;
   display: flex;
 
-
+  @include mobile {
+    flex-direction: column;
+  }
   .left {
     flex: 1;
     overflow: hidden;
@@ -48,6 +50,11 @@
         border: 1px solid black;
         border-radius: 10px;
 
+
+        @include mobile {
+          width: 220px;
+          height: 20px;
+        }
       }
 
       textarea {
@@ -60,7 +67,10 @@
         border-radius: 12px;
 
 
-
+        @include mobile {
+          width: 220px;
+          height: 100px;
+        }
       }
       button {
         width: 150px;
