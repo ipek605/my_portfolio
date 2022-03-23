@@ -67,6 +67,9 @@
           width: 90%;
           height: 190px;
         }
+        @include tablet {
+          width: 75%;
+        }
 
         .left {
           flex: 4;
@@ -110,12 +113,20 @@
               @include mobile {
                 font-size: 14px;
               }
+              @include tablet {
+                font-size: 25px;
+              }
             }
             p {
               font-size: 13px;
               overflow: hidden;
               @include mobile {
-               display:none;
+                display: none;
+              }
+              @include tablet {
+                font-size: 15px;
+                text-align: left;
+                padding: 7px 0;
               }
             }
             span {

@@ -1,9 +1,18 @@
 $mainColor: #252429;
 
-$width:768px;
+$mobile-width:599px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+
 
 @mixin mobile {
-    @media (max-width: #{$width}){
+    @media (max-width: #{$mobile-width}){
         @content
     }
-}
+};
+@mixin tablet {
+    @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+      @content;
+    }
+  }
