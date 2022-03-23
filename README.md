@@ -2,7 +2,7 @@
 
 My personal portfolio built using React and SCSS. I'm continually adding projects, modifying content, and updating the look and functionality. 
 
-Please check out my work at https://gleaming-faun-52fd90.netlify.app
+Please check out my work at https://dulcet-centaur-aed909.netlify.app/
 
 ## Prerequisites
 
