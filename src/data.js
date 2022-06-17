@@ -19,9 +19,9 @@ export const featuredPortfolio = [
     },
     {
       id: 4,
-      title: "Relax Mobile App",
-      img:"https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
-    href:"#",
+      title: "Dashboard",
+      img:"./images/dashboard.png",
+    href:"https://cool-flan-cde86a.netlify.app/",
       },
     {
       id: 5,
